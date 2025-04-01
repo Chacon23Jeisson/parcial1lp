@@ -1,0 +1,50 @@
+body{
+    background-color: #ff5733;
+    font-family: Georgia, serif;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.producto img{
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-frame{
+    display: inline;
+    width: 200px;
+    height: 60px;
+    border: #444;
+    font-family: Georgia, serif;
+}
+
+footer{
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    width: 100vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
